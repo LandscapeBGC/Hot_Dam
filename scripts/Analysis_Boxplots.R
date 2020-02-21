@@ -1,3 +1,6 @@
+#### This currently produces box plots based on ecoregions provided by gagesII_sept10_2011_conterm.xlsx
+#### this step may require we perform on Thermal_metrics.csv a select by location analysis using climate regions shp. 
+
 #install.packages('ggpubr')
 library(ggpubr)
 library(here)

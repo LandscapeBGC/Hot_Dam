@@ -15,7 +15,7 @@ library(data.table)
 start_time <- Sys.time()
 #######################################
 
-path1 <- here('input')
+path1 <- here()
 Orig_file <- read.csv(file.path(path1,'LocData_NID.csv'))
 
 results <- here("results")

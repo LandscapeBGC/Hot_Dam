@@ -1,3 +1,7 @@
+#### before this step, a near analysis is conducted between LocData.csv and NID2018_RawData.csv
+#### to produce LocData_NID.csv
+
+
 library(here)
 library(dplyr)
 library(ggplot2)
@@ -13,7 +17,7 @@ start_time <- Sys.time()
 
 #### Establish Relavent File Paths ####
 
-path1 <- here("input")
+path1 <- here()
 STAID <- read.csv(file.path(path1,'LocData_NID.csv')) # Create data frame from csv linking ids
 
 path2 <- here("input", "Dam_Raw") #removes confusion regarding setwd()

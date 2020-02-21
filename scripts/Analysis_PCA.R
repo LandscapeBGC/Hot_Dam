@@ -1,3 +1,5 @@
+##### I haven't done much with this script. maybe someone else can see what we can derive from it
+
 library(factoextra)
 library(devtools)
 library(tidyverse)
